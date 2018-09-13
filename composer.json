@@ -1,0 +1,22 @@
+{
+    "name": "paysera",
+    "description": "This is a simple paysera commission fee calculator.",
+    "require-dev": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
+        "phpunit/phpunit": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Elaman Nazarkulov",
+            "email": "physcom93@gmail.com"
+        }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "Paysera\\": "src"
+        }
+    }
+}
