@@ -27,7 +27,7 @@ class Transaction{
       private $o_amount;
       private $o_currency;
       
-      public function __construct( $par1, $par2, $par3, $par4, $par5, $par6 ) {
+      public function __construct( $par1=0, $par2=0, $par3=0, $par4=0, $par5=0, $par6=0 ) {
 	   $this->date = $par1;
 	   $this->user_id = $par2;
 	   $this->u_type = $par3;
